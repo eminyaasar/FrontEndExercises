@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: darkgray">
+    <h1 style="text-align: center">Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="Surname">Kullanıcı Adı:</label>
+        </td>
+
+        <td style="width: 50px"><input type="text" id="surname" /></td>
+      </tr>
+      <tr>
+        <td><label for="eposta">Eposta:</label></td>
+
+        <td><input type="email" id="eposta" /></td>
+      </tr>
+      <tr>
+        <td><label for="parola">Parola:</label></td>
+        <td><input type="password" id="parola" /></td>
+      </tr>
+    </table>
+    <h2>Kişisel Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="name">Adınız:</label>
+        </td>
+        <td style="width: 50px">
+          <input type="text" id="name" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="cities">Şehir:</label></td>
+        <td>
+          <select name="" id="cities">
+            <option value="seç">Seçiniz</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="gender">Cinsiyet:</label></td>
+        <td>
+          <input type="radio" name="gender" />Kadın
+          <input type="radio" name="gender" />Erkek
+        </td>
+      </tr>
+      <tr>
+        <td><label for="hobies">Hobileriniz:</label></td>
+        <td><input type="checkbox" />Sinema <input type="checkbox" />Gezme</td>
+        <td><input type="checkbox" />Spor <input type="checkbox" />Kitap</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button type="submit">Kaydet</button>
+          <input type="reset" value="Sil" />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <footer style="text-align: center">
+      <a href="new.html">Ana Sayfaya Dön</a>
+    </footer>
+  </body>
+</html>
